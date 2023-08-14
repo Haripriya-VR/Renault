@@ -110,7 +110,7 @@ img{
 /*hero section*/
 .herosection{
     height: 600px;
-    background-image: url(/assets/KWID.png);
+    background-image: url(./assets/KWID.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
