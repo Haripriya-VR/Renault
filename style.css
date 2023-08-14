@@ -1,0 +1,472 @@
+*{
+    margin: 0px;
+    font-family: sans-serif ;
+    box-sizing: border-box;
+}
+
+/* change language bar*/
+
+.lang-bar{
+    display: flex; 
+    align-items: center;
+    background-color:#3e3f40 ;
+    height: 52px;
+    padding: 8px 16px 8px 16px;
+    color: #ffffff;
+
+}
+.change-lang{
+   font-size: 11px;
+   margin: 24px;
+   width: 1000px;
+
+}
+.lang-box{
+    display: flex;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.lang{
+    height: 36px;
+    width: 180px;
+    padding: 8px 8px 8px 8px;
+}
+.arow{
+    padding: 10px;    
+}
+.button{
+    padding:10px 32px;
+    background-color: black;
+    border:none;
+    color: #ffffff;
+    margin-left: 16px;
+    font-size:16px ;
+    font-weight: 600;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: #ffff00dc;
+    color: black;
+}
+.cross{
+    margin-left: 100px;
+    cursor: pointer;
+}
+/*navbar*/
+.navbar{
+    display: flex;
+    height:150px ;
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+}
+.logo{
+    height: 120px;
+    width: 80px;
+    cursor: pointer;
+    margin-left: 20px;
+    justify-content: center;  
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+.nav-text{
+    width: 1200px;
+    display: flex;
+    margin-left: 20px;    
+}
+.text{
+    font-size: 12px;
+    font-weight: 600;
+    padding: 1rem;
+}
+.navleft-btn{
+    display: flex;
+    padding: 10px;
+    margin-left: 20px;
+    cursor: pointer;
+}
+.navleft{
+   font-size: .8rem;
+   text-align: right;
+   padding-right:20px ;
+}
+.nav-btn{
+    background-color: black;
+    border: none;
+    color: #ffffff;
+    padding: 15px 10px 0px 10px;
+    height: 80px;
+}
+.btn-icon{
+    padding: 5px;
+    height: 25px;  
+} 
+.navbtn-text{
+    margin-top: 2px;
+    width: 4.6rem;
+}
+/*hero section*/
+.herosection{
+    height: 600px;
+    background-image: url(/assets/KWID.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.hero-text{
+    padding-top: 70px;
+    padding-left: 70px;
+    justify-content: center;
+    width: 400px;   
+}
+.text1{
+    font-size:40px ;
+    color: #ffffff;
+    font-weight: 600;   
+}
+.text2{
+    font-size:20px ;
+    margin: 8px 0px 0px;
+    color: #ffffff;
+    font-weight:600 ; 
+}
+.hero-btn1{
+   color: black;
+   font-size: 16px;
+   font-weight: 600;
+   margin: 24px 0px 0px;
+   padding: 14px 15px;
+   border: 1px solid black;
+   background-color: #ffffff;
+}
+.hero-btn1:hover{
+    cursor: pointer;
+    background-color: yellow;
+    padding: 15px 16px ;
+    border: none;
+}
+.hero-btn2{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 600;
+    margin: 24px 0px 0px 16px;
+    padding: 14px 15px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+.hero-btn2:hover{
+    background-color: white;
+    color: black;
+}
+/*section-2*/
+.ser-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 64px 32px;
+    color: black;
+    font-size: 21px;
+    font-weight: 700;
+    height: 19px;  
+}
+/*button */
+.service{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+.service-btn1{
+    width: 250px;
+    height: 80px;
+    background-color: transparent;
+    margin: 4px;
+    padding: 8px;
+    border: 1px solid rgb(206, 199, 199);
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 2px;
+}
+.service-btn1:hover{
+    border:3px solid rgb(243, 199, 42);
+    cursor: pointer;
+}
+.ser-img{
+    height: 38px;
+    width: 38px; 
+}
+.btn-text1{
+    height: 14px;
+    width: 130px;
+    font-size: 14px;
+    color: #000000;
+    margin: 4px;
+    font-weight: 600;
+}
+.section-title{
+  display: flex;
+  justify-content: center;
+  padding: 32px 16px;
+}
+.ser-h2{
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+    margin: 0px 0px 16px;
+}
+/*MODELS*/
+.modelpicker{
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 380px;
+   padding: 32px 0px;
+}
+.Range-model-card{
+    height: 216px;
+    width: 340px;
+    background-color: transparent;
+    border: transparent;
+}
+.range-name{
+    width: 400px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #000000;
+    margin: 4px 0px 0px;
+    padding-left: 20px;
+}
+.link-wrapper{
+    background-color: transparent;
+    border: transparent;
+    font-size: .8rem;
+    margin: 8px 32px 0px 0px;
+    padding: 1px 6px 1px 20px;
+    text-decoration: underline 2px rgb(217, 217, 45);
+}
+/*action banner*/
+.action-banner{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+}
+.actionbanner{
+    margin-top: 30px;
+    display: flex;  
+    align-items: center;
+    height: 176px;
+    width: 85%;
+    border: 1px solid #c1c4c7;
+    border-radius: 3px;
+    padding: 20px;
+}
+.actionbanner-img{
+    height: 150px;
+    width: 260px;
+}
+.actionbanner-title{
+    font-size: 25px;
+    font-weight: 600;
+    margin: 0px 32px 0px 24px;
+}
+.actionbanner-btn{
+   width: 200px;
+}
+/*section 3*/
+.section3-title{
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+.sec3-title{
+    font-size: 32px;
+    font-weight: 600;
+    margin: 16px;
+    width: 570px;
+    text-align-last:center;
+}
+.section3-feature{
+    display: flex;
+    height: 540px;
+    padding: 32px 0px 32px 0px;
+    justify-content:center;
+}
+.sec3-left{
+  margin-right: 15px;
+  width: 618px;
+}
+.sec3-right{
+  width: 618px;
+  margin-left: 15px;
+}
+.component-title{
+    font-size:  19px;
+    font-weight: 550;
+    padding: 10px 0px 10px;
+}
+.component-title::after{
+    content:"";
+    display:block;
+    width: 50px;
+    border-bottom: 1px solid rgb(5, 5, 5);
+    margin-top:15px ;
+}
+.component-text{
+    font-size: 14px;
+    line-height: 1.6;
+    letter-spacing: 1px;
+}
+.component-btn{
+    margin: 20px 0px 0px 0px;
+}
+.mini-dealer{
+    display: flex;
+    margin-top: 5rem;
+    margin-bottom: 30px;
+    width: 84%;
+    justify-content: center;
+    margin: 5rem 7.1rem 0rem 7.1rem;
+}
+.mini-dealer-content{
+   display: flex;
+   align-items: center;
+   color: #ffffff;
+   background-color: #000000;
+   width: 70%;
+}
+.minidealercont{
+    margin: 40px;
+}
+.sec3-img3{
+    height: 268px;
+    width: 30%;
+}
+.mini-text1{
+    font-size: 28px;
+    margin-bottom: 16px;
+}
+.mini-text2{
+    font-size: 14px;
+}
+.mini-btns{
+    display: flex;
+    margin-top: 40px;
+    padding-top: 10px;
+}
+.mini-dealer-btn{
+    display: flex;
+    background-color: #ffff00dc;
+    color: #000000;
+    margin: 0px;
+    border: none;
+}
+.loc-icon{
+    margin-top: 10px;
+}
+.btn-text{
+    padding: 5px;
+    width: 6em;
+}
+.mini-dealer-btn:hover{
+    background-color: yellow;
+}
+.minidealer-or{
+   padding:.6rem ;
+   margin-top: .5rem;
+   font-size: small;
+   font-weight: 600;
+}
+
+.search{
+    display: flex;
+    width: 35rem;
+    background-color: aliceblue;
+}
+.minidealer-search{
+    background-color: #ffffff;
+    width: 35rem;
+    border: transparent;
+    border-radius: .1rem;
+    
+}
+input::placeholder
+{
+  padding: 1rem;
+  font-size: 1rem; 
+  letter-spacing: 1px;
+  
+
+}
+.icon{
+    color: #000000;
+    background-color: transparent;
+    padding: 1.4rem;
+}
+.compliant-text{
+    margin-left: 25px;
+    letter-spacing: 1px;
+}
+.section4-title{
+    display: flex;
+    justify-content: center;
+    font-size:2rem ;
+    font-weight: 700;
+    line-height: .95;
+    padding: 16px;
+    margin: 2rem;
+}
+.sec4-feature{
+    display: flex;
+    height:377px ;
+    justify-content: space-evenly;
+   
+}
+.sec4-model{
+    height: 250px;
+    width: 360px;
+}
+.sec4-text1{
+    padding-top: .9rem;
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+.sec4-text2{
+    padding-top: .9rem;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: .01rem;
+}
+.fa-angle-right{
+    color: #f0ed22dc;
+}
+/*footer*/
+.pre-footer-content{
+    display: flex;
+    justify-content: space-evenly;
+    height:150px ;
+    background-color: black;
+    color: #ffffff;
+    align-items: center;
+}
+.picture1{
+    height: 50px;
+    width: 50px;
+}
+.picture{
+    color: #f9f918;
+    padding-left:1.5rem ;
+}
+.pre-footer-text{
+    padding-top: 1rem;
+   font-size: .9rem; 
+}
+.footer-content{
+    display: flex;
+    justify-content: space-evenly;
+}
+.content-block{
+   width: 40px;
+}
